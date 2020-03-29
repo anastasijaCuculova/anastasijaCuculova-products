@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="logo"><img src="./../../assets/qpick.png" /></div>
+  <div class="search-container">
+    <input id="search-modal-query" type="text" [(ngModel)]="searchTerm" (ngModelChange)="onSearch()">
+    <div class="search"></div>
+  </div>
+</div>
+
+<div class="products-wrapper" *ngIf="products">
+  <div *ngFor="let product of filteredProducts">
+    <a style="text-decoration: none; " routerLink="/product-detail/{{product.id}}">
+      <app-product-preview [product]="product"></app-product-preview>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,59 @@
+.square-image {
+    margin: 40px;
+    height: 430px;
+    width: 330px;
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+  
+    .image-container {
+      height: 340px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .text-button {
+      height: 90px;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+  
+  .name {
+      color: black;
+      font-family:Arial, Helvetica, sans-serif;
+      display: inline-block;
+      vertical-align: middle;
+      word-wrap: break-word;
+      align-self: center;
+      text-decoration: none;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+  .price {
+      font-family:Arial, Helvetica, sans-serif;
+      display: inline-block;
+      vertical-align: middle;
+      align-self: center;
+      text-decoration: none;
+      font-weight: bold;
+      color: crimson;
+  
+    }
