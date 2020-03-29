@@ -16,12 +16,17 @@ Run `ng server` for a dev server. Navigate to `http://localhost:3000/`.
 
 These are the API endpoints we'll be able to use via our JSON REST API server:
 
-GET /products  for getting the products
-GET /products/<id>  for getting a single product by id
-POST /products  for creating a new product
-PUT /products/<id>  for updating a product by id
-PATCH /products/<id>  for partially updating a product by id
-DELETE /products/<id>  for deleting a product by id
+GET /products  for getting the products.
+
+GET /products/<id>  for getting a single product by id.
+  
+POST /products  for creating a new product.
+
+PUT /products/<id>  for updating a product by id.
+  
+PATCH /products/<id>  for partially updating a product by id.
+  
+DELETE /products/<id>  for deleting a product by id.
 
 ## Code scaffolding
 
